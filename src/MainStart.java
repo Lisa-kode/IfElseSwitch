@@ -10,7 +10,7 @@ public class MainStart {
         goldenRetriever.setLegs(3);
         goldenRetriever.setSize(55);
 
-        //Kan hun løbe?
+        //Kan hunden løbe?
         if (goldenRetriever.run())
             System.out.println("Hunden løber");
         else
@@ -22,6 +22,8 @@ public class MainStart {
         else
             System.out.println("Størrelsen passer ikke");
 
+        //ANVENDELSE AF IF/ELSE (https://www.w3schools.com/java/java_conditions.asp)
+
         // Er hunden lille, mellem eller stor?
         if (goldenRetriever.size > 0 && goldenRetriever.size < 30)
             System.out.println("Hunden er lille");
@@ -32,7 +34,8 @@ public class MainStart {
         else // her skal ikke være et statement, for dét er ro resultatet, hvis alt ovenstående ikke passer
             System.out.println("Hunden er ekstra stor");
 
-        // ANVENDELSE AF SWITCH
+
+        // ANVENDELSE AF SWITCH (https://www.w3schools.com/java/java_switch.asp)
 
         int sizeInterval;
         sizeInterval = goldenRetriever.size / 30;
